@@ -21,6 +21,5 @@ public class SquareTest {
     public void testPerimeterCalculate() {
         assertEquals(16.0, square.perimeterCalculate());
     }
-
 }
 

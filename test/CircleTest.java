@@ -3,9 +3,6 @@ import org.junit.Test;
 
 import static junit.framework.TestCase.assertEquals;
 
-/**
- * Created by sceli on 5/10/16.
- */
 public class CircleTest {
 
     private Circle circle;
@@ -25,5 +22,4 @@ public class CircleTest {
     public void testPerimeterCalculate() {
         assertEquals(25.132741228718345, circle.perimeterCalculate());
     }
-
 }

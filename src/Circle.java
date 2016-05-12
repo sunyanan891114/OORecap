@@ -1,7 +1,4 @@
-/**
- * Created by sceli on 5/10/16.
- */
-public class Circle {
+public class Circle implements Shape{
 
 
     private final int radius;
@@ -10,10 +7,12 @@ public class Circle {
         this.radius = radius;
     }
 
+    @Override
     public double areaCalculate() {
         return Math.PI * (radius * radius);
     }
 
+    @Override
     public double perimeterCalculate() {
         return 2 * Math.PI * radius;
     }
